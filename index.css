@@ -1,0 +1,28 @@
+#one{
+    background-color: darkmagenta;
+    transition-timing-function: linear;
+}
+#two{
+    background-color: darkslategray;
+    transition-timing-function: ease-in;
+}
+#three{
+    background-color: cyan;
+    transition-timing-function: ease-in;
+}
+#four{
+    background-color: crimson;
+    transition-timing-function: ease-out;
+}
+#five{
+    background-color: greenyellow;
+    transition-timing-function: ease-in-out;
+}
+div{
+    width: 100px;
+    height: 100px;
+    transition: height 2s;
+}
+div:hover{
+width: 300px;
+}
